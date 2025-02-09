@@ -28,6 +28,6 @@ jobs:
       # Step 4: Run the script
       - name: Run the streak update script
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # GitHub token for repo authentication
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}  # GitHub token for repo authentication
         run: |
           python ./script.py
