@@ -8,7 +8,7 @@ OWNER = "rohan492"
 REPO = "counter"
 FILE_PATH = "counter.txt"
 BRANCH = "main"
-TOKEN = os.getenv("TOKEN")
+TOKEN = os.getenv("GITHUB_TOKEN")
 
 # GitHub API URL for the file
 url = f"https://api.github.com/repos/{OWNER}/{REPO}/contents/{FILE_PATH}"
