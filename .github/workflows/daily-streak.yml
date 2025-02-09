@@ -2,7 +2,7 @@ name: Update GitHub Streak
 
 on:
   schedule:
-    - cron: '35 11 * * *'
+    - cron: '37 11 * * *'
 
 jobs:
   update-streak:
